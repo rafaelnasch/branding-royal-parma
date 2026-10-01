@@ -1,0 +1,214 @@
+{
+ "marca": "Royal Parma",
+ "gerado_em": "2026-09-30",
+ "cores": {
+  "caramelo": "#BE7F43",
+  "creme": "#E2DDC8",
+  "verde": "#102B22",
+  "verde_profundo": "#0B1D17",
+  "papel": "#FAF8F2",
+  "kraft_teste": "#C9A67E"
+ },
+ "versoes_de_cor": {
+  "oficial": "ROYAL, RP, ® e apoio creme; PARMA, coroa e moldura caramelo; sobre verde ou foto escura",
+  "claro": "ROYAL, RP, ® e apoio verde; PARMA, coroa e moldura caramelo; sobre papel/creme (em kraft o caramelo perde contraste: prefira verde)",
+  "verde": "uma cor #102B22 (kraft, carimbo)",
+  "creme": "uma cor #E2DDC8 (foto escura, vídeo)",
+  "caramelo": "uma cor #BE7F43 (gravação, hot stamping, selo)"
+ },
+ "unidade": "unidades do viewBox; horizontal, reduzida, brasão e monograma usam a escala do original de 2304 px (altura do logotipo = 315,5)",
+ "respiro_regra": "x = altura da coroa com a barra (62.7 unidades no horizontal = 19.9% da altura do logotipo); manter x livre nos quatro lados",
+ "layouts": {
+  "horizontal": {
+   "viewBox": [
+    3.5,
+    0.5,
+    2300.0,
+    315.5
+   ],
+   "proporcao_l_por_a": 7.29,
+   "respiro_x": 62.71,
+   "respiro_x_em_fracao_da_altura": 0.1988,
+   "minimo_mm_largura": {
+    "offset_digital": 76.7,
+    "kraft_flexo_hotstamping": 115.0
+   },
+   "minimo_tela_px_largura": 320,
+   "minimo_tela_obs": "linha de apoio legível a partir de 320 px (maiúsculas de ~5 px); a 260 px já embaralha"
+  },
+  "reduzida": {
+   "viewBox": [
+    3.5,
+    0.5,
+    1821.5,
+    315.5
+   ],
+   "proporcao_l_por_a": 5.7734,
+   "respiro_x": 62.71,
+   "respiro_x_em_fracao_da_altura": 0.1988,
+   "minimo_mm_largura": {
+    "offset_digital": 45.5,
+    "kraft_flexo_hotstamping": 91.1
+   },
+   "minimo_tela_px_largura": 130,
+   "minimo_tela_obs": "RP do brasão vira mancha abaixo de ~130 px de largura"
+  },
+  "vertical": {
+   "viewBox": [
+    0.0,
+    0.5,
+    499.5,
+    610.5
+   ],
+   "proporcao_l_por_a": 0.8182,
+   "respiro_x": 60.12,
+   "respiro_x_em_fracao_da_altura": 0.0985,
+   "minimo_mm_largura": {
+    "offset_digital": 31.5,
+    "kraft_flexo_hotstamping": 42.0
+   },
+   "minimo_tela_px_largura": 120,
+   "minimo_tela_obs": "linha de apoio legível a partir de 120 px de largura; abaixo use sem apoio"
+  },
+  "linha": {
+   "viewBox": [
+    44.0,
+    65.5,
+    1781.0,
+    257.5
+   ],
+   "proporcao_l_por_a": 6.9165,
+   "respiro_x": 51.2,
+   "respiro_x_em_fracao_da_altura": 0.1988,
+   "minimo_mm_largura": {
+    "offset_digital": 54.5,
+    "kraft_flexo_hotstamping": 109.1
+   },
+   "minimo_tela_px_largura": 120,
+   "minimo_tela_obs": "ROYALPARMA legível a 120 px; o brasão vira só silhueta"
+  },
+  "brasao": {
+   "viewBox": [
+    3.5,
+    0.5,
+    193.5,
+    315.5
+   ],
+   "proporcao_l_por_a": 0.6133,
+   "respiro_x": 62.71,
+   "respiro_x_em_fracao_da_altura": 0.1988,
+   "minimo_mm_largura": {
+    "offset_digital": 4.8,
+    "kraft_flexo_hotstamping": 9.7
+   },
+   "minimo_tela_px_largura": 22,
+   "minimo_tela_obs": "22 px de largura (36 px de altura); abaixo disso use royal-favicon-simplificado.svg"
+  },
+  "monograma": {
+   "viewBox": [
+    3.5,
+    121.5,
+    167.5,
+    124.0
+   ],
+   "proporcao_l_por_a": 1.3508,
+   "respiro_x": 62.71,
+   "respiro_x_em_fracao_da_altura": 0.5057,
+   "minimo_mm_largura": {
+    "offset_digital": 3.4,
+    "kraft_flexo_hotstamping": 4.8
+   },
+   "minimo_tela_px_largura": 16,
+   "minimo_tela_obs": "RP reconhecível a 16 px de largura"
+  },
+  "selo": {
+   "viewBox": [
+    -267.5,
+    -267.5,
+    535,
+    535
+   ],
+   "proporcao_l_por_a": 1.0,
+   "respiro_x": 53.5,
+   "respiro_x_em_fracao_da_altura": 0.1,
+   "respiro_obs": "o selo não tem coroa: x = 1/10 do diâmetro",
+   "minimo_mm_largura": {
+    "offset_digital": 7.2,
+    "kraft_flexo_hotstamping": 13.4
+   },
+   "minimo_tela_px_largura": 40,
+   "minimo_tela_obs": "anéis e ornamentos fundem abaixo de 40 px"
+  }
+ },
+ "regras_minimo_mm": {
+  "offset_digital": "maiúscula do apoio >= 1,2 mm; RP >= 2,5 mm; filete interno do escudo >= 0,05 mm",
+  "kraft_flexo_hotstamping": "maiúscula do apoio >= 1,6 mm; RP >= 3,5 mm; filete >= 0,1 mm"
+ },
+ "iou_por_peca_horizontal": {
+  "coroa": {
+   "suave": 0.958,
+   "binaria": 0.924
+  },
+  "moldura": {
+   "suave": 0.9454,
+   "binaria": 0.9534
+  },
+  "monograma": {
+   "suave": 0.9894,
+   "binaria": 0.9818
+  },
+  "royal": {
+   "suave": 0.995,
+   "binaria": 0.9958
+  },
+  "parma": {
+   "suave": 0.9961,
+   "binaria": 0.9961
+  },
+  "registro": {
+   "suave": 0.9403,
+   "binaria": 0.9215
+  },
+  "apoio1": {
+   "suave": 0.9393,
+   "binaria": 0.948
+  },
+  "apoio2": {
+   "suave": 0.9427,
+   "binaria": 0.9494
+  }
+ },
+ "iou_conjuntos": {
+  "horizontal": {
+   "caramelo": 0.9911,
+   "caramelo_bin": 0.9864,
+   "creme": 0.9887,
+   "creme_bin": 0.9872
+  },
+  "vertical": {
+   "caramelo": 0.9529,
+   "caramelo_bin": 0.9701,
+   "creme": 0.9571,
+   "creme_bin": 0.9618
+  },
+  "brasao_favicon270": {
+   "caramelo": 0.7406,
+   "caramelo_bin": 0.7656,
+   "creme": 0.9497,
+   "creme_bin": 0.9557
+  },
+  "selo_7png": {
+   "caramelo": 0.8608,
+   "caramelo_bin": 0.8614,
+   "creme": 0.8562,
+   "creme_bin": 0.8557
+  }
+ },
+ "observacoes": [
+  "IoU medida contra o raster de 2304 px; peças finas (filete do escudo ~2 px, coroa, apoio, ®) ficam em 93 a 96% por limite de resolução da fonte, não de forma",
+  "coroa e moldura simetrizadas pelo eixo x=100 (a quebra da moldura onde passa a cauda do R foi preservada)",
+  "selo redesenhado em geometria: 54 dentes, anéis e 4 cúspides; o RP do selo usa o mesmo monograma do brasão (o 7.png tem um RP mais pesado, de outro desenho)",
+  "vertical recomposto com as mesmas peças do horizontal, escalas ajustadas por sobreposição máxima no vertical original",
+  "royal-favicon-32.png sai de royal-favicon-simplificado.svg (sem coroa e sem filete interno, contorno engrossado)"
+ ]
+}

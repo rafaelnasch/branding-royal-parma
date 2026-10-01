@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.zip
+_preview-*.html
+_teste-*.html
+!assets/icones/*.zip
+!assets/destaques/*.zip
