@@ -3735,8 +3735,9 @@ table.consulta caption,.table-wrap.matriz caption{ caption-side:bottom; text-ali
         <p class="bloco-apoio">No claude.ai a skill entra por um arquivo ZIP. O material sai como arquivo único, com a marca e as fotos embutidas.</p>
       </div>
       <ol class="passos">
-        <li><div><b>Baixe o ZIP pronto</b>Na página de <a href="https://github.com/rafaelnasch/branding-royal-parma/releases/latest">Releases do repositório</a>, o arquivo <code>branding-royal-parma.zip</code>.</div></li>
-        <li><div><b>Envie ao Claude</b>Em Settings, Capabilities, Skills, envie o ZIP e confirme que a skill aparece ligada.</div></li>
+        <li><div><b>Ligue a execução de código</b>Em Configurações, Capacidades, ligue "Execução de código e criação de arquivos". Sem isso nenhuma skill funciona.</div></li>
+        <li><div><b>Baixe o ZIP pronto</b>Pelo <a href="https://github.com/rafaelnasch/branding-royal-parma/releases/latest/download/branding-royal-parma.zip">link direto</a> ou na página de <a href="https://github.com/rafaelnasch/branding-royal-parma/releases/latest">Releases</a>: o arquivo <code>branding-royal-parma.zip</code>. Não descompacte.</div></li>
+        <li><div><b>Envie ao Claude</b>Em Personalizar, Skills, clique em +, Criar skill, Enviar uma skill, escolha o ZIP e confirme que a skill aparece ligada.</div></li>
         <li><div><b>Abra uma conversa nova</b>A skill vale a partir da próxima conversa. Faça o primeiro teste (02.4).</div></li>
       </ol>
       <div class="alerta mt-7"><strong>Use o ZIP do Releases</strong>Não use o botão "Code, Download ZIP" do GitHub: ele traz a pasta com outro nome (<code>branding-royal-parma-main</code>) e a skill sobe com o nome errado.</div>
@@ -3745,9 +3746,9 @@ table.consulta caption,.table-wrap.matriz caption{ caption-side:bottom; text-ali
     <div class="bloco reveal" id="g02-3">
       <div class="bloco-head">
         <div><span class="bloco-n">02.3</span><h3>Codex</h3></div>
-        <p class="bloco-apoio">O mesmo repositório, na pasta de skills do Codex.</p>
+        <p class="bloco-apoio">O mesmo repositório, na pasta de skills do Codex. Versões antigas do Codex leem <code>~/.codex/skills/</code>. Depois de instalar, <code>/skills</code> lista e <code>$branding-royal-parma</code> chama a skill.</p>
       </div>
-      <div class="modelo"><p class="rotulo">Instalar</p><p class="modelo-texto g-cmd"><code>git clone https://github.com/rafaelnasch/branding-royal-parma.git ~/.codex/skills/branding-royal-parma</code></p><button class="copiar" type="button">Copiar comando</button></div>
+      <div class="modelo"><p class="rotulo">Instalar</p><p class="modelo-texto g-cmd"><code>git clone https://github.com/rafaelnasch/branding-royal-parma.git ~/.agents/skills/branding-royal-parma</code></p><button class="copiar" type="button">Copiar comando</button></div>
     </div>
 
     <div class="bloco reveal" id="g02-4">
