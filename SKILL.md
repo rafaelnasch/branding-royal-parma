@@ -17,9 +17,12 @@ Palavras-guia: calorosa, direta, orgulhosa sem arrogância, honesta, generosa. N
 
 | Ambiente | Onde instalar | O que muda |
 |---|---|---|
-| **Claude Code** (terminal, VS Code, app de desktop) | `~/.claude/skills/branding-royal-parma` | Nada. Ambiente completo: escreve arquivo, usa `assets/`, exporta PDF. |
-| **Codex CLI** | `~/.codex/skills/branding-royal-parma` | Nada. |
-| **claude.ai** (navegador e celular) | Settings, Capabilities, Skills (ZIP do Releases) | **O artefato é um arquivo só: não enxerga `assets/` nem os `.js`.** |
+| **Claude Code** (terminal, VS Code, app de desktop) | `~/.claude/skills/branding-royal-parma` (clone do repositório) | Nada. Ambiente completo: escreve arquivo, usa `assets/`, exporta PDF. |
+| **Codex** (CLI, IDE, app) | `~/.agents/skills/branding-royal-parma` (versões antigas: `~/.codex/skills/`) | Nada. `agents/openai.yaml` dá o nome e a descrição da lista de skills. |
+| **claude.ai** (navegador e celular) | Personalizar > Skills > + > Enviar uma skill: o `branding-royal-parma.zip` do Releases (execução de código ligada) | **O artefato é um arquivo só: não enxerga `assets/` nem os `.js`.** |
+| **ChatGPT** | Skills do app, onde a conta liberar o envio: o mesmo `branding-royal-parma.zip` | Igual ao claude.ai: material em arquivo único. |
+
+**O que o ZIP leva e o que fica no site do manual.** O pacote traz tudo o que a skill usa para produzir (marca em SVG e PNG web, `marca.json`, favicon, avatar, imagem de compartilhamento, fotos públicas com o `LEIA.md`, formas, capas de destaque, fontes, motores e modelos). Ficam só no endereço público `https://rafaelnasch.github.io/branding-royal-parma/`: os arquivos publicados que serviram de base (`assets/referencia-original/`), as PNG cheias da marca (2400 px, para o Canva e a gráfica) e as versões autocontidas do `dist/`. Para Canva ou impressão, baixe a PNG cheia de lá.
 
 **REGRA DO NAVEGADOR (claude.ai):** todo HTML gerado ali é **autocontido**.
 1. **Marca:** use os blocos em **data URI** do [`lockup.html`](lockup.html) (horizontal oficial, horizontal claro, brasão). Copie o `src` inteiro; nunca digite, resuma ou reconstrua um data URI.

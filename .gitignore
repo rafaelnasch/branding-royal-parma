@@ -6,3 +6,4 @@ _preview-*.html
 _teste-*.html
 !assets/icones/*.zip
 !assets/destaques/*.zip
+dist-skill/

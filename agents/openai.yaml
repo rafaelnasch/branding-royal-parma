@@ -1,0 +1,11 @@
+# Metadados de exibição para Codex e ChatGPT (formato de https://learn.chatgpt.com/docs/build-skills).
+# Opcional: o Claude ignora este arquivo; as regras da skill estão no SKILL.md.
+interface:
+  display_name: "Royal Parma · Rótulo Real"
+  short_description: "Identidade da Royal Parma (parmegianaria delivery em franquia): Verde Royal, Papel e Kraft, caramelo como tempero, brasão em arquivo, Gloock com a palavra de molho, cinco leis e regras de publicidade de comida e franquia."
+  icon_small: "./assets/royal-favicon.svg"
+  icon_large: "./assets/royal-favicon-512.png"
+  brand_color: "#102B22"
+  default_prompt: "No padrão da Royal Parma, faça a peça a seguir. Antes, confirme o formato, quem assina (rede, unidade de qual cidade ou Royal Parma Franquias) e o objetivo."
+policy:
+  allow_implicit_invocation: true
