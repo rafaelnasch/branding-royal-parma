@@ -1,6 +1,6 @@
 ---
 name: branding-royal-parma
-description: "A identidade visual da Royal Parma (rede de parmegianaria delivery, franquia) no sistema Rótulo Real v1: Verde Royal e Papel como campos, o Kraft como campo do pedido, o Caramelo Royal como tempero (no máximo 10% da área), o brasão com RP sempre em arquivo, Gloock nos títulos com UMA palavra de molho em Playfair Italic, Source Sans 3 no texto, a moldura de rótulo, o selo serrilhado e a curva do R, foto real do prato como ele chega, as cinco leis da casa, blocos da unidade e da franqueadora, canais oficiais, avisos de promoção e ao investidor, e as regras de publicidade de comida e de franquia (CDC, CONAR, COF, promoções, preço, ANVISA, LGPD), gráficos (rviz) e formas (rforms). Use para qualquer material da Royal Parma (unidade ou franqueadora): post, carrossel, story, reels, iFood, cardápio digital, WhatsApp, cupom, embalagem, pote de molho, cardápio, flyer, fachada, uniforme, página de franquia, apresentação ao investidor e e-mail. Triggers: branding royal parma, padrão royal, royal parma, rótulo real."
+description: "Identidade da Royal Parma (rede de parmegianaria delivery em franquia), sistema Rótulo Real v1: cores, fontes, brasão, leis da casa, voz e regras de publicidade de comida e de franquia. Use em todo material da rede, unidade ou franqueadora: post, story, reels, iFood, cardápio, WhatsApp, cupom, embalagem, flyer, fachada, página de franquia, apresentação ao investidor e e-mail. Gatilhos: royal parma, padrão royal, rótulo real."
 ---
 
 # /branding-royal-parma · A identidade visual da Royal Parma
